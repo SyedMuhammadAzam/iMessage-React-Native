@@ -17,7 +17,7 @@ import Pusher from "pusher-js/react-native";
 import { ActivityIndicator, Colors } from "react-native-paper";
 import moment from "moment";
 
-const pusher = new Pusher("e73f44755841672b06ea", {
+const pusher = new Pusher("Your_key", {
   cluster: "ap2",
 });
 
